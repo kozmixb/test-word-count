@@ -1,6 +1,8 @@
 ## Install
 - composer install
 - php artisan storage:link
+- copy .env.example .env
+- php artisan key:generate
 
 ## Run
 - php artisan serve
