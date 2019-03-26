@@ -22,9 +22,6 @@ If you wish to upload bigger files than 2MB then the files stored in "storage/ap
 Word is a chain of characters between spaces.
 First of all I remove all the unneccesary characters including line breaks (\n\r) from the text except:
 -and (&)
--dot (.)
-The dots will be removed from the end of sentences except if it is in a word like dates (12.03.2019)
--forward slash (/)
-For different date formats(12/03/2019)
--dash (-)
-For different date formats(12-03-2019)
+-dot (.) The dots will be removed from the end of sentences except if it is in a word like dates (12.03.2019)
+-forward slash (/) For different date formats(12/03/2019)
+-dash (-) For different date formats(12-03-2019)
